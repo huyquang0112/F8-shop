@@ -1,0 +1,23 @@
+/* Moble */
+@media (min-width: 1024px) {
+    .pc {
+        display: block;
+    }
+}
+
+/* Tablets */
+@media (min-width: 740px) and (max-width:1023px) {
+    .tablet {
+        display: block;
+    }
+}
+
+@media (max-width: 739px) {
+    #nav>li {
+        display: block;
+    }
+    #header .search-btn {
+        display: none;
+    }
+
+}
